@@ -1,5 +1,5 @@
 const exponentiation = (x, n) => {
-	let result = (x / n)*2;
+	let result = x * n;
 	return result;
 };
 

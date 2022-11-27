@@ -1,7 +1,6 @@
- function printNumbers(a, b, x) {
+ function printNumbers(a, b,) {
 	let current = a;
-  
-	let timerId = setInterval(function() {
+  let timerId = setInterval(function() {
 	  console.log(current);
 	  if (current == b) {
 		clearInterval(timerId);
@@ -9,4 +8,4 @@
 	  current++;
 	}, 1000);
   }
-  printNumbers(5, 15,25); 
+  printNumbers(5, 15); 
